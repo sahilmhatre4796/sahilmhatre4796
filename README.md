@@ -1,5 +1,5 @@
-<h1 align="center">Hi there, I'm Sahil Mhatre ðŸ‘‹</h1>
-<h3 align="center">Full-Stack Software Engineer | AI/ML Enthusiast | Backend Architect</h3>
+<h1 align="center">Hi there, I'm Sahil Mhatre 👋</h1>
+<h3 align="center">Full-Stack Software Engineer | Backend Developer | AI/ML Enthusiast</h3>
 
 <p align="center">
   Building intelligent systems that bridge AI capabilities with real-world applications.<br/>
@@ -18,29 +18,29 @@
 
 ---
 
-## ðŸ§­ About Me
+## 🧭 About Me
 
 I'm a software engineer who builds production-grade platforms from architecture to deployment. I focus on AI-powered applications, scalable backends, and real-time systems.
 
-- ðŸ”­ **Currently building:** AI Flow â€” a no-code AI chatbot platform with RAG pipeline and multi-tenant architecture
-- ðŸŒ± **Currently learning:** Advanced RAG patterns, vector databases, and LLM orchestration at scale
-- ðŸ‘¯ **Looking to collaborate on:** AI-powered applications, fintech projects, and real-time systems
-- ðŸ¤ **Looking for help with:** Scaling AI Flow's infrastructure and knowledge base processing pipeline
-- ðŸ’¬ **Ask me about:** Python, FastAPI, React, PostgreSQL, Redis, Docker, WebSocket, and AI/ML integration
-- ðŸ“« **Reach me at:** sahilmhatre4796@gmail.com
-- âš¡ **Fun fact:** I've built trading bots that analyze crypto news sentiment and execute trades automatically
+- 🔭 **Currently building:** AI Flow — a no-code AI chatbot platform with RAG pipeline and multi-tenant architecture
+- 🌱 **Currently learning:** Advanced RAG patterns, vector databases, and LLM orchestration at scale
+- 👯 **Looking to collaborate on:** AI-powered applications, fintech projects, and real-time systems
+- 🤝 **Looking for help with:** Scaling AI Flow infrastructure and knowledge base processing pipeline
+- 💬 **Ask me about:** Python, FastAPI, React, PostgreSQL, Redis, Docker, WebSocket, and AI/ML integration
+- 📫 **Reach me at:** sahilmhatre4796@gmail.com
+- ⚡ **Fun fact:** I have built trading bots that analyze crypto news sentiment and execute trades automatically
 
 ---
 
-## ðŸš€ Featured Projects
+## 🚀 Featured Projects
 
-### ðŸ¤– [AI Flow](https://github.com/sahilmhatre4796/ai-flow-backend) â€” No-Code AI Chatbot Platform
+### 🤖 [AI Flow](https://github.com/sahilmhatre4796/ai-flow-backend) — No-Code AI Chatbot Platform
 
-A production-grade self-hosted alternative to Botpress and Intercom bots. Users create AI-powered chatbots with custom personas, feed them knowledge bases from multiple sources, and embed them on any website via a single `<script>` tag.
+A production-grade self-hosted alternative to Botpress and Intercom bots. Users create AI-powered chatbots with custom personas, feed them knowledge bases from multiple sources, and embed them on any website via a single script tag.
 
 **Key features:**
 - Multi-tenant workspace system with role-based access control (owner/admin/agent/viewer)
-- Full RAG pipeline: document ingestion (5 source types) â†’ sentence-boundary chunking â†’ OpenAI/Ollama embeddings â†’ pgvector cosine-distance retrieval
+- Full RAG pipeline: document ingestion (5 source types) → sentence-boundary chunking → OpenAI/Ollama embeddings → pgvector cosine-distance retrieval
 - Real-time WebSocket chat via Redis pub/sub for horizontal scaling
 - Swappable AI provider abstraction (OpenAI, Anthropic, Ollama)
 - Stripe billing with tiered plans (Free / Pro / Business)
@@ -50,7 +50,7 @@ A production-grade self-hosted alternative to Botpress and Intercom bots. Users 
 
 ---
 
-### ðŸ’¹ [Crypto Compass](https://github.com/sahilmhatre4796/crypto-compass) â€” Sentiment-Driven Trading Platform
+### 💹 [Crypto Compass](https://github.com/sahilmhatre4796/crypto-compass) — Sentiment-Driven Trading Platform
 
 A full-stack crypto trading dashboard that aggregates real-time news, performs NLP sentiment analysis, and uses sentiment signals to automatically execute trades on Binance and Bybit.
 
@@ -67,7 +67,7 @@ A full-stack crypto trading dashboard that aggregates real-time news, performs N
 
 ---
 
-### ðŸ [SportsIQ](https://github.com/sahilmhatre4796/sportsiq) â€” AI-Powered Sports Intelligence
+### 🏏 [SportsIQ](https://github.com/sahilmhatre4796/sportsiq) — AI-Powered Sports Intelligence
 
 An AI-powered sports intelligence platform with real-time insights, predictions, analytics, and a conversational AI assistant powered by Llama 3.3 70B via Groq.
 
@@ -83,7 +83,7 @@ An AI-powered sports intelligence platform with real-time insights, predictions,
 
 ---
 
-### ðŸ“Š Additional Projects
+### 📊 Additional Projects
 
 | Project | Description | Stack |
 |---------|-------------|-------|
@@ -93,7 +93,7 @@ An AI-powered sports intelligence platform with real-time insights, predictions,
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## 🛠️ Tech Stack
 
 **Languages**  
 <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -140,16 +140,16 @@ An AI-powered sports intelligence platform with real-time insights, predictions,
 
 ---
 
-## ðŸ§© How I Work
+## 🧩 How I Work
 
-- **Architecture first** â€” design the data model and API contracts before writing code
-- **Own the full stack** â€” from database schema to UI to deployment configuration
-- **Build for production** â€” multi-tenancy, auth, billing, and error handling from day one
-- **Honest systems** â€” no fabricated data, no hallucinated responses, audit trails on every decision
+- **Architecture first** — design the data model and API contracts before writing code
+- **Own the full stack** — from database schema to UI to deployment configuration
+- **Build for production** — multi-tenancy, auth, billing, and error handling from day one
+- **Honest systems** — no fabricated data, no hallucinated responses, audit trails on every decision
 
 ---
 
-## ðŸ“š What I'm Learning Next
+## 📚 What I am Learning Next
 
 - Advanced RAG patterns (hybrid search, re-ranking, context window optimization)
 - LLM fine-tuning and evaluation frameworks
@@ -158,7 +158,7 @@ An AI-powered sports intelligence platform with real-time insights, predictions,
 
 ---
 
-## ðŸ“Š GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img height="165" src="https://github-stats-extended.vercel.app/api?username=sahilmhatre4796&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
@@ -171,30 +171,30 @@ An AI-powered sports intelligence platform with real-time insights, predictions,
 
 ---
 
-## â“ FAQ
+## ❓ FAQ
 
 **Q: Do you work solo on all these projects?**  
-Yes â€” architecture, backend, frontend, database design, and deployment, all handled by me for each project.
+Yes — architecture, backend, frontend, database design, and deployment, all handled by me for each project.
 
-**Q: What's your main focus area?**  
+**Q: What is your main focus area?**  
 AI-powered platforms with production-grade backends. I love building systems where LLMs, vector search, and real-time data come together.
 
 **Q: Are you open to opportunities?**  
 Yes, especially full-stack development, backend architecture, or AI/ML engineering roles.
 
 **Q: Best way to see your work?**  
-Check my pinned repos, or explore [AI Flow](https://github.com/sahilmhatre4796/ai-flow-backend) â€” my most comprehensive project.
+Check my pinned repos, or explore [AI Flow](https://github.com/sahilmhatre4796/ai-flow-backend) — my most comprehensive project.
 
 ---
 
-## ðŸ“« Let's Connect
+## 📫 Let us Connect
 
-- ðŸ“§ Email: **sahilmhatre4796@gmail.com**
-- ðŸ’¼ LinkedIn: [sahilmhatre4796](https://www.linkedin.com/in/sahilmhatre4796)
-- ðŸ™ GitHub: [sahilmhatre4796](https://github.com/sahilmhatre4796)
+- 📧 Email: **sahilmhatre4796@gmail.com**
+- 💼 LinkedIn: [sahilmhatre4796](https://www.linkedin.com/in/sahilmhatre4796)
+- 🐙 GitHub: [sahilmhatre4796](https://github.com/sahilmhatre4796)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sahilmhatre4796&color=blue&style=flat" alt="Profile views" />
 </p>
 
-<p align="center"><i>Thanks for stopping by â€” feel free to explore my pinned repos below ðŸ‘‡</i></p>
+<p align="center"><i>Thanks for stopping by — feel free to explore my pinned repos below 👇</i></p>
