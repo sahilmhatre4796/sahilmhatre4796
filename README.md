@@ -1,165 +1,200 @@
-<div align="center">
+<h1 align="center">Hi there, I'm Sahil Mhatre ðŸ‘‹</h1>
+<h3 align="center">Full-Stack Software Engineer | AI/ML Enthusiast | Backend Architect</h3>
 
-# Sahil Mhatre
+<p align="center">
+  Building intelligent systems that bridge AI capabilities with real-world applications.<br/>
+  I specialize in full-stack platforms with a focus on AI-powered products, real-time systems, and financial technology.
+</p>
 
-### Full-Stack Software Engineer | AI/ML Enthusiast | Backend Architect
+<p align="center">
+  <a href="https://www.linkedin.com/in/sahilmhatre4796"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/sahilmhatre4796"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="mailto:sahilmhatre4796@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
-Building intelligent systems that bridge AI capabilities with real-world applications.
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sahilmhatre4796)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahilmhatre4796@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahilmhatre4796)
-
-</div>
-
----
-
-## What I Build
-
-I specialize in building **full-stack applications** with a focus on **AI-powered platforms**, **real-time systems**, and **financial technology**. My work spans from designing scalable backend architectures to crafting polished, interactive user interfaces.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=009688&center=true&vCenter=true&width=650&lines=Building+AI-Powered+Chatbot+Platforms;Full-Stack+Development+%7C+Python+%7C+React+%7C+FastAPI;Real-Time+Systems+%7C+WebSocket+%7C+Redis;Currently+exploring+RAG+Pipelines+%26+LLM+Orchestration" alt="Typing SVG" />
+</p>
 
 ---
 
-## Featured Projects
+## ðŸ§­ About Me
 
-### AI Flow â€” No-Code AI Chatbot Platform
+I'm a software engineer who builds production-grade platforms from architecture to deployment. I focus on AI-powered applications, scalable backends, and real-time systems.
 
-<div align="center">
+- ðŸ”­ **Currently building:** AI Flow â€” a no-code AI chatbot platform with RAG pipeline and multi-tenant architecture
+- ðŸŒ± **Currently learning:** Advanced RAG patterns, vector databases, and LLM orchestration at scale
+- ðŸ‘¯ **Looking to collaborate on:** AI-powered applications, fintech projects, and real-time systems
+- ðŸ¤ **Looking for help with:** Scaling AI Flow's infrastructure and knowledge base processing pipeline
+- ðŸ’¬ **Ask me about:** Python, FastAPI, React, PostgreSQL, Redis, Docker, WebSocket, and AI/ML integration
+- ðŸ“« **Reach me at:** sahilmhatre4796@gmail.com
+- âš¡ **Fun fact:** I've built trading bots that analyze crypto news sentiment and execute trades automatically
 
-[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)]()
-[![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)]()
-[![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)]()
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)]()
-[![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)]()
-[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)]()
+---
 
-</div>
+## ðŸš€ Featured Projects
 
-A production-grade **no-code AI chatbot builder** â€” a self-hosted alternative to Botpress and Intercom bots. Users create AI-powered chatbots with custom personas, feed them knowledge bases from multiple sources (PDFs, URLs, sitemaps), and embed them on any website via a single `<script>` tag.
+### ðŸ¤– [AI Flow](https://github.com/sahilmhatre4796/ai-flow-backend) â€” No-Code AI Chatbot Platform
 
-**Backend** (`ai-flow-backend`) â€” Built with **FastAPI**, **PostgreSQL + pgvector**, **Celery**, and **Redis**:
-- Multi-tenant workspace system with role-based access control
+A production-grade self-hosted alternative to Botpress and Intercom bots. Users create AI-powered chatbots with custom personas, feed them knowledge bases from multiple sources, and embed them on any website via a single `<script>` tag.
+
+**Key features:**
+- Multi-tenant workspace system with role-based access control (owner/admin/agent/viewer)
 - Full RAG pipeline: document ingestion (5 source types) â†’ sentence-boundary chunking â†’ OpenAI/Ollama embeddings â†’ pgvector cosine-distance retrieval
-- Real-time WebSocket chat via Redis pub/sub (horizontally scalable)
+- Real-time WebSocket chat via Redis pub/sub for horizontal scaling
 - Swappable AI provider abstraction (OpenAI, Anthropic, Ollama)
 - Stripe billing with tiered plans (Free / Pro / Business)
-- 14-table database schema with Alembic migrations
+- 14-table PostgreSQL schema with pgvector extensions and Alembic migrations
 
-**Frontend** (`ai-flow-frontend`) â€” Built with **React**, **Vite**, **Framer Motion**, and **Three.js**:
-- Dual-build architecture: SPA dashboard + framework-free embeddable widget (IIFE)
-- Three.js 3D floating particle background with WebGL
-- Pervasive animation system (page transitions, staggered reveals, spring physics)
-- Transparent JWT token refresh without external libraries
-
-> A single `CurrentMembership` FastAPI dependency enforces tenant isolation at the checkpoint level. Non-members get 404 (not 403) to prevent leaking workspace existence.
+**Tech stack:** Python, FastAPI, PostgreSQL, pgvector, Redis, Celery, Docker, React, Vite, Three.js, Framer Motion
 
 ---
 
-### Crypto Compass â€” Sentiment-Driven Trading Platform
+### ðŸ’¹ [Crypto Compass](https://github.com/sahilmhatre4796/crypto-compass) â€” Sentiment-Driven Trading Platform
 
-<div align="center">
+A full-stack crypto trading dashboard that aggregates real-time news, performs NLP sentiment analysis, and uses sentiment signals to automatically execute trades on Binance and Bybit.
 
-[![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)]()
-[![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)]()
-[![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)]()
-[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)]()
-[![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)]()
-
-</div>
-
-A **full-stack crypto trading dashboard** that aggregates real-time news, performs NLP sentiment analysis, and uses sentiment signals to automatically execute trades on **Binance** and **Bybit**.
-
-**Key capabilities:**
+**Key features:**
 - Multi-source news aggregation (RSS feeds from CoinTelegraph, Decrypt, CoinDesk + CoinGecko API)
-- VADER sentiment analysis with per-coin attribution (10 coins)
-- Asynchronous trading bot engine with configurable thresholds, leverage, and position management
+- VADER sentiment analysis with per-coin attribution for 10 cryptocurrencies
+- Asynchronous trading bot engine with configurable thresholds and position management
 - Dual exchange abstraction (CCXT for Binance, pybit for Bybit) with identical interfaces
 - WebSocket real-time market data streaming
 - Telegram trade alert integration
 - Paper trading mode for risk-free testing
 
-> The trading bot runs as independent `asyncio` tasks per user, polling sentiment every 30 seconds and executing trades without blocking the FastAPI event loop.
+**Tech stack:** Python, FastAPI, React, MongoDB, CCXT, VADER Sentiment, Telegram Bot API, Tailwind CSS
 
 ---
 
-### SportsIQ â€” AI-Powered Sports Intelligence
+### ðŸ [SportsIQ](https://github.com/sahilmhatre4796/sportsiq) â€” AI-Powered Sports Intelligence
 
-<div align="center">
+An AI-powered sports intelligence platform with real-time insights, predictions, analytics, and a conversational AI assistant powered by Llama 3.3 70B via Groq.
 
-[![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)]()
-[![Groq](https://img.shields.io/badge/-Groq-FF6B35?style=flat-square&logoColor=white)]()
-[![Recharts](https://img.shields.io/badge/-Recharts-3B82F6?style=flat-square&logoColor=white)]()
-[![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)]()
-
-</div>
-
-An **AI-powered sports intelligence platform** with real-time insights, predictions, analytics, and a conversational AI assistant powered by **Llama 3.3 70B** via Groq.
-
-**Features include:**
+**Key features:**
 - AI Copilot for sports analysis and predictions (Football, Cricket, Basketball, Tennis)
 - Fantasy lineup optimizer with AI-generated picks and confidence scores
 - Match prediction tracking with accuracy analytics
 - Athlete discovery with radar charts and form data
 - Gamification system (points, badges, streaks, leaderboards)
-- Glassmorphism dark theme with magnetic card hover effects and aurora backgrounds
+- Glassmorphism dark theme with magnetic card hover effects
+
+**Tech stack:** React, Vite, Groq API (Llama 3.3 70B), Recharts, Framer Motion
 
 ---
 
-### Additional Projects
+### ðŸ“Š Additional Projects
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [CryptoPulse](https://github.com/sahilmhatre4796/cryptopulse-frontend) | Real-time crypto dashboard with live market data and portfolio tracking | React, JavaScript |
-| [CryptoPulse Backend](https://github.com/sahilmhatre4796/cryptopulse-backend) | API backend powering the CryptoPulse dashboard | Node.js, Express |
-| [FlowForge](https://github.com/sahilmhatre4796/flowforge) | Webhook automation platform for workflow orchestration | TypeScript |
-| [Binance Bot](https://github.com/sahilmhatre4796/Binance_bot) | Automated trading bot for Binance Futures Testnet (USDT-M) | Python, Binance API |
+| [CryptoPulse](https://github.com/sahilmhatre4796/cryptopulse-frontend) | Real-time crypto dashboard with live market data | React, JavaScript |
+| [FlowForge](https://github.com/sahilmhatre4796/flowforge) | Webhook automation platform | TypeScript |
+| [Binance Bot](https://github.com/sahilmhatre4796/Binance_bot) | Automated trading bot for Binance Futures Testnet | Python, Binance API |
 
 ---
 
-## Tech Stack
+## ðŸ› ï¸ Tech Stack
 
-<div align="center">
+**Languages**  
+<img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io/badge/typescript-007ACC?style=flat-square&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/sql-4479A1?style=flat-square&logo=postgresql&logoColor=white">
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+**Frontend**  
+<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/vite-646CFF?style=flat-square&logo=vite&logoColor=white">
+<img src="https://img.shields.io/badge/framer%20motion-0055FF?style=flat-square&logo=framer&logoColor=white">
+<img src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=three.js&logoColor=white">
+<img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
+<img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white">
 
-</div>
+**Backend & Database**  
+<img src="https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/postgres-316192?style=flat-square&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/mongodb-4EA94B?style=flat-square&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/redis-DC382D?style=flat-square&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/celery-92D552?style=flat-square&logo=celery&logoColor=white">
+<img src="https://img.shields.io/badge/pgvector-FF6B6B?style=flat-square&logoColor=white">
+
+**AI & ML**  
+<img src="https://img.shields.io/badge/openai-412991?style=flat-square&logo=openai&logoColor=white">
+<img src="https://img.shields.io/badge/anthropic-D97757?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/ollama-000000?style=flat-square&logo=ollama&logoColor=white">
+<img src="https://img.shields.io/badge/groq-E5542D?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/ccxt-1B5CC4?style=flat-square&logoColor=white">
+
+**DevOps & Cloud**  
+<img src="https://img.shields.io/badge/docker-0db7ed?style=flat-square&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white">
+<img src="https://img.shields.io/badge/aws-232F3E?style=flat-square&logo=amazon-aws&logoColor=white">
+<img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/vercel-000000?style=flat-square&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/render-46E3B7?style=flat-square&logo=render&logoColor=white">
+
+**Tools & Design**  
+<img src="https://img.shields.io/badge/stripe-635BFF?style=flat-square&logo=stripe&logoColor=white">
+<img src="https://img.shields.io/badge/postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
+<img src="https://img.shields.io/badge/vscode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white">
 
 ---
 
-## GitHub Stats
+## ðŸ§© How I Work
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sahilmhatre4796&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahilmhatre4796&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
+- **Architecture first** â€” design the data model and API contracts before writing code
+- **Own the full stack** â€” from database schema to UI to deployment configuration
+- **Build for production** â€” multi-tenancy, auth, billing, and error handling from day one
+- **Honest systems** â€” no fabricated data, no hallucinated responses, audit trails on every decision
 
 ---
 
-## What I'm Focused On
+## ðŸ“š What I'm Learning Next
 
-- Building **AI-powered applications** with real-world impact
-- Designing **scalable backend architectures** with clean API design
-- Exploring **RAG pipelines**, vector databases, and LLM orchestration
-- Creating **real-time systems** with WebSocket and event-driven patterns
-- Developing **fintech solutions** with automated trading and market analysis
+- Advanced RAG patterns (hybrid search, re-ranking, context window optimization)
+- LLM fine-tuning and evaluation frameworks
+- Distributed task processing with Celery and Redis
+- pgvector performance tuning and indexing strategies
 
 ---
 
-<div align="center">
+## ðŸ“Š GitHub Stats
 
-![Profile Views](https://komarev.com/ghpvc/?username=sahilmhatre4796&color=0A66C2&style=for-the-badge&label=PROFILE+VIEWS)
+<p align="center">
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=sahilmhatre4796&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=sahilmhatre4796&layout=compact&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
+</p>
 
-*"Building intelligent systems, one commit at a time."*
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=sahilmhatre4796&theme=dark&hide_border=false" />
+</p>
 
-</div>
+---
+
+## â“ FAQ
+
+**Q: Do you work solo on all these projects?**  
+Yes â€” architecture, backend, frontend, database design, and deployment, all handled by me for each project.
+
+**Q: What's your main focus area?**  
+AI-powered platforms with production-grade backends. I love building systems where LLMs, vector search, and real-time data come together.
+
+**Q: Are you open to opportunities?**  
+Yes, especially full-stack development, backend architecture, or AI/ML engineering roles.
+
+**Q: Best way to see your work?**  
+Check my pinned repos, or explore [AI Flow](https://github.com/sahilmhatre4796/ai-flow-backend) â€” my most comprehensive project.
+
+---
+
+## ðŸ“« Let's Connect
+
+- ðŸ“§ Email: **sahilmhatre4796@gmail.com**
+- ðŸ’¼ LinkedIn: [sahilmhatre4796](https://www.linkedin.com/in/sahilmhatre4796)
+- ðŸ™ GitHub: [sahilmhatre4796](https://github.com/sahilmhatre4796)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sahilmhatre4796&color=blue&style=flat" alt="Profile views" />
+</p>
+
+<p align="center"><i>Thanks for stopping by â€” feel free to explore my pinned repos below ðŸ‘‡</i></p>
