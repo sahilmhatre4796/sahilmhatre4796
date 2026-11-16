@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="Sahil Mhatre — Backend and Full-Stack Software Engineer | AI, Crypto &amp; Real-Time Systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090e1a"/><stop offset="0.55" stop-color="#0d1426"/><stop offset="1" stop-color="#141126"/>
+    </linearGradient>
+    <radialGradient id="tealGlow" cx="0.85" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.4"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="0.08" cy="0.9" r="0.65">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.34"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="0.66" cy="0.95" r="0.5">
+      <stop offset="0" stop-color="#eab308" stop-opacity="0.16"/><stop offset="1" stop-color="#eab308" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tealText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/><stop offset="0.18" stop-color="#2dd4bf" stop-opacity="0.9"/><stop offset="0.42" stop-color="#8b5cf6" stop-opacity="0.9"/><stop offset="0.5" stop-color="#f5c15d"/><stop offset="0.58" stop-color="#8b5cf6" stop-opacity="0.9"/><stop offset="0.82" stop-color="#2dd4bf" stop-opacity="0.9"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1b2540" stroke-width="1" opacity="0.6"/></pattern>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#233052"/></pattern>
+  </defs>
+
+  <rect width="1280" height="440" fill="url(#bg)"/>
+  <rect width="1280" height="440" fill="url(#grid)"/>
+  <rect width="1280" height="440" fill="url(#dots)" opacity="0.4"/>
+  <rect width="1280" height="440" fill="url(#tealGlow)"/>
+  <rect width="1280" height="440" fill="url(#violetGlow)"/>
+  <rect width="1280" height="440" fill="url(#goldGlow)"/>
+
+  <!-- giant background hexagons, right side -->
+  <g transform="translate(890,-40)" fill="none" stroke-linejoin="round">
+    <polygon points="210,20 400,130 400,330 210,440 20,330 20,130" stroke="#131f36" stroke-width="34"/>
+    <polygon points="210,20 400,130 400,330 210,440 20,330 20,130" stroke="#1d2c4a" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===== right motif: hex panel ===== -->
+  <g transform="translate(895,42)">
+    <polygon points="178,2 327,88 327,252 178,338 29,252 29,88" fill="#0e1830" fill-opacity="0.92" stroke="#274264" stroke-width="1.5"/>
+    <polygon points="178,26 304,99 304,241 178,314 52,241 52,99" fill="none" stroke="#1e2f4c" stroke-width="1"/>
+    <circle cx="178" cy="170" r="118" fill="none" stroke="#16233c" stroke-width="1" stroke-dasharray="3 7"/>
+    <line x1="52" y1="140" x2="304" y2="140" stroke="#172440"/>
+    <line x1="52" y1="200" x2="304" y2="200" stroke="#172440"/>
+    <line x1="52" y1="258" x2="304" y2="258" stroke="#172440"/>
+    <g stroke-width="2">
+      <line x1="98" y1="222" x2="98" y2="288" stroke="#34d399"/><rect x="89" y="233" width="18" height="35" rx="2" fill="#10b981"/>
+      <line x1="140" y1="196" x2="140" y2="262" stroke="#f87171"/><rect x="131" y="209" width="18" height="33" rx="2" fill="#ef4444"/>
+      <line x1="183" y1="168" x2="183" y2="236" stroke="#34d399"/><rect x="174" y="179" width="18" height="36" rx="2" fill="#10b981"/>
+      <line x1="226" y1="128" x2="226" y2="198" stroke="#34d399"/><rect x="217" y="139" width="18" height="38" rx="2" fill="#10b981"/>
+      <line x1="268" y1="88" x2="268" y2="158" stroke="#fbbf24"/><rect x="259" y="97" width="18" height="41" rx="2" fill="#eab308"/>
+    </g>
+    <polyline points="94,256 146,224 190,188 232,150 272,108" fill="none" stroke="#2dd4bf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+    <circle cx="94" cy="256" r="4" fill="#2dd4bf"/><circle cx="272" cy="108" r="5" fill="#fbbf24" stroke="#0a0f1c" stroke-width="1.6"/>
+    <g stroke="#2dd4bf" stroke-opacity="0.8" stroke-width="1.4"><line x1="178" y1="26" x2="178" y2="64"/><line x1="52" y1="99" x2="88" y2="125"/><line x1="304" y1="241" x2="258" y2="215"/></g>
+    <g fill="#0d1426" stroke="#2dd4bf" stroke-width="1.5"><circle cx="178" cy="70" r="4.4"/><circle cx="92" cy="128" r="4.4"/><circle cx="254" cy="212" r="4.4"/></g>
+    <circle cx="178" cy="70" r="1.5" fill="#2dd4bf"/><circle cx="92" cy="128" r="1.5" fill="#2dd4bf"/><circle cx="254" cy="212" r="1.5" fill="#2dd4bf"/>
+    <text x="66" y="333" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#3d83a4" letter-spacing="1">SIG · RISK · EXEC</text>
+    <text x="216" y="52" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#8a6d2f" letter-spacing="1">M13.SHADOW</text>
+  </g>
+
+  <!-- ===== left identity ===== -->
+  <text x="64" y="103" font-family="'JetBrains Mono',Consolas,monospace" font-size="17" fill="#34d399" letter-spacing="1"><tspan fill="#64748b">$</tspan> whoami</text>
+  <text x="62" y="192" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="66" font-weight="800" fill="#f1f5f9" letter-spacing="1.5">SAHIL MHATRE</text>
+  <rect x="64" y="206" width="150" height="3" fill="url(#rule)"/>
+  <text x="64" y="243" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24.5" font-weight="600" fill="url(#tealText)">Backend &amp; Full-Stack Software Engineer</text>
+  <text x="64" y="287" font-family="'JetBrains Mono',Consolas,monospace" font-size="16.5" fill="#f5c15d" letter-spacing="2.5">AI <tspan fill="#8b5cf6">▸</tspan> CRYPTO <tspan fill="#8b5cf6">▸</tspan> REAL-TIME SYSTEMS</text>
+  <rect x="64" y="310" rx="14" ry="14" width="392" height="30" fill="#0d2b26" stroke="#14b8a6" stroke-opacity="0.6"/>
+  <circle cx="82" cy="325" r="4" fill="#2dd4bf"/>
+  <text x="96" y="330" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#5eead4" letter-spacing="0.5">OPEN TO BACKEND · FULL-STACK · AI ROLES</text>
+
+  <!-- bottom rule -->
+  <rect x="0" y="436" width="1280" height="4" fill="url(#rule)" opacity="0.85"/>
+</svg>

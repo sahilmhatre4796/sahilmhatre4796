@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" width="320" height="250" role="img" aria-label="FlowForge">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+  </defs>
+  <rect width="320" height="250" rx="18" fill="#10151f" stroke="#212a3a"/>
+  <rect width="5" height="250" rx="2.5" fill="url(#bar)"/>
+  <text x="296" y="96" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="96" font-weight="700" fill="#141d2e">05</text>
+  <rect x="24" y="66" width="76" height="76" rx="17" fill="#0d1426" stroke="url(#mg)" stroke-width="2"/>
+  <text x="62" y="113" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="url(#mg)" letter-spacing="1">FF</text>
+  <rect x="126" y="86" width="34" height="36" rx="5" fill="#241812" stroke="#fb923c" stroke-width="1.8"/><rect x="208" y="52" width="34" height="28" rx="5" fill="#241812" stroke="#fbbf24" stroke-width="1.6"/><rect x="208" y="128" width="34" height="28" rx="5" fill="#241812" stroke="#fbbf24" stroke-width="1.6"/><g stroke="#fb923c" stroke-width="1.6" fill="none"><path d="M160 96 L196 70"/><path d="M160 112 L196 140"/><path d="M190 66 L196 70 L190 76"/><path d="M190 136 L196 140 L190 146"/></g>
+  <text x="24" y="228" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#5b6b8c" letter-spacing="1.6">TRIGGER · FILTER · ACTION</text>
+</svg>

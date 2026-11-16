@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492 300" width="492" height="300" role="img" aria-label="Backend Engineering skills">
+  <defs><linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient></defs>
+  <rect width="492" height="300" rx="18" fill="#10151f" stroke="#212a3a"/>
+  <rect width="492" height="4" fill="url(#acc)"/>
+  <g stroke="#2dd4bf" stroke-width="1.8" fill="none" stroke-linejoin="round">
+    <rect x="26" y="30" width="52" height="15" rx="3"/>
+    <rect x="26" y="52" width="52" height="15" rx="3"/>
+    <rect x="26" y="74" width="52" height="15" rx="3"/>
+    <circle cx="66" cy="37.5" r="1.6" fill="#2dd4bf" stroke="none"/>
+    <circle cx="66" cy="59.5" r="1.6" fill="#2dd4bf" stroke="none"/>
+    <circle cx="66" cy="81.5" r="1.6" fill="#f5c15d" stroke="none"/>
+  </g>
+  <text x="26" y="130" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#2dd4bf" letter-spacing="2.5">01 — CORE</text>
+  <text x="24" y="165" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#f1f5f9">Backend Engineering</text>
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5" fill="#a9b4c9">
+    <text x="26" y="196"><tspan fill="#f5c15d">▸</tspan> FastAPI · PostgreSQL · REST APIs</text>
+    <text x="26" y="218"><tspan fill="#f5c15d">▸</tspan> WebSockets · Redis · Celery · pgvector</text>
+    <text x="26" y="240"><tspan fill="#f5c15d">▸</tspan> multi-tenant RLS · JWT · RBAC · Docker</text>
+    <text x="26" y="262"><tspan fill="#f5c15d">▸</tspan> Alembic migrations · nginx · hardened CORS</text>
+  </g>
+</svg>

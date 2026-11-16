@@ -1,212 +1,149 @@
-<h1 align="center">Sahil Mhatre</h1>
-<h3 align="center">Backend &amp; Full-Stack Software Engineer | AI, Crypto &amp; Real-Time Systems</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/banner.svg" alt="Sahil Mhatre — Backend &amp; Full-Stack Software Engineer | AI, Crypto &amp; Real-Time Systems" width="100%"/>
+</p>
 
 <p align="center">
-  I build scalable backend services, full-stack applications and intelligent systems.<br/>
-  My work spans API development, database architecture, AI-powered applications,<br/>
-  cryptocurrency platforms and workflow automation.
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&pause=1200&color=2DD4BF&center=true&vCenter=true&width=620&height=40&lines=Backend+%26+API+Engineering;Scalable+Full-Stack+Applications;AI-Powered+Systems+%26+RAG;Crypto+%26+Real-Time+Data" alt="Typing SVG"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/sahilmhatre4796"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://www.linkedin.com/in/sahilmhatre4796"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:sahilmhatre4796@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://aiflow-ai.vercel.app/"><img src="https://img.shields.io/badge/Live-aiflow--ai.vercel.app-1B1F23?style=flat-square&logo=vercel&logoColor=white" alt="Live site"></a>
 </p>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="90%"/></p>
 
-## About Me
+## `//` about
 
-I'm a software engineer with a backend-first focus: I design data models and APIs, build the services around them, and ship the frontend that makes them usable. I care about systems that are honest about what they can and can't do — real data, real error handling, no fabricated metrics.
+I build scalable backend services, full-stack applications and intelligent systems. My work spans **API development, database architecture, AI-powered applications, cryptocurrency platforms and workflow automation** — a backend-first mindset with the frontend range to ship end-to-end.
 
-- **Currently building:** Agency Growth Automation Platform — AI-powered lead discovery and outreach automation (in active development)
-- **Core focus:** Backend architecture, API engineering, database design, real-time systems
-- **Also experienced in:** Full-stack delivery with React/Next.js frontends and LLM/RAG integration
-- **Open to:** Backend, full-stack and AI engineering roles
+`currently building` [Agency Growth Automation Platform](https://github.com/sahilmhatre4796/agency-growth-automation-platform) — AI-powered lead discovery, qualification and outreach automation, in active development.
 
----
+`strengths` backend architecture · API engineering · database design · real-time systems · RAG pipelines
 
-## Featured Projects
+`fluent in` React/Next.js · LLM integrations (OpenAI · Anthropic · Ollama · Groq) · event-driven architecture
 
-### 1. [Agency Growth Automation Platform](https://github.com/sahilmhatre4796/agency-growth-automation-platform)
-*AI-powered backend and automation platform for B2B agency growth — in active development.*
+`open to` backend · full-stack · AI engineering roles
 
-International lead-discovery, prospect-qualification, CRM and campaign-orchestration system built for multi-country, multi-industry B2B agencies.
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="90%"/></p>
 
-**Implemented**
-- Multi-tenant CRM with organization-scoped PostgreSQL Row-Level Security (RLS enforced and tested)
-- Bounded discovery campaign orchestration — credits/budgets, automatic page continuation, row-locked leases, pause/resume/cancel, per-page rejection diagnostics
-- Serper search adapter with anti-directory filtering and business-identity verification (dedup by domain/identity)
-- Evidence-cited lead qualification with automatic routing to human review on ambiguity; opt-in, audit-bound contact enrichment
-- Audit trail on all mutations (`audit_events`); every record organization-scoped; edge-first secrets, nothing sensitive in the browser
-- 650+ tests (Vitest + PGlite in-memory Postgres) with GitHub Actions CI: lint → typecheck → test → build
+## `//` SELECTED PROJECTS | TOP 5
 
-**In progress / not yet live**
-- Production deployment (pending final integration sign-off), load testing, verified sender onboarding
-- Live email sending is **disabled by default** — no provider is connected; sends require explicit organization approval (multi-sender Gmail pool architecture is implemented, with suppression/unsubscribe gating)
+<img align="left" width="248" src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/card-01.svg" alt="01 — Agency Growth Automation Platform"/>
 
-**Stack:** Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · Supabase (PostgreSQL + RLS + Edge Functions) · Vitest
+### 01 — [Agency Growth Automation Platform](https://github.com/sahilmhatre4796/agency-growth-automation-platform) <code>IN ACTIVE DEVELOPMENT</code>
 
----
+AI-powered backend and automation platform for international B2B agency growth — prospect discovery, qualification, enrichment, CRM and personalized outreach.
 
-### 2. [Adaptive Crypto Trading System](https://github.com/sahilmhatre4796/adaptive-crypto-trading-system)
-*Python framework for researching adaptive, multi-timeframe crypto strategies — simulated/paper execution only.*
+**Implemented:** multi-tenant org-scoped CRM on Postgres RLS (tested) · bounded campaign orchestration (Serper, credit budgets, row-locked leases, pause/resume/cancel, per-page diagnostics, anti-directory filtering) · evidence-cited qualification with human-in-the-loop routing · opt-in, audit-bound enrichment. **Not live yet:** production deployment pending integration sign-off — live email sending is disabled by default; multi-sender Gmail architecture implemented, no provider connected. 650+ tests · GitHub Actions CI.
 
-Honest status: this is a research and paper-execution framework, **not a live trading system**. There is no code path anywhere that places, modifies or cancels orders or moves funds.
+`next.js 16 · react 19 · typescript · supabase · vitest`
 
-**What it does**
-- Binance USD-M public market-data ingestion (finalized candles, pair synchronization, stale-data and duplicate rejection)
-- Composable strategy pipeline: pattern detection → ATR-normalized market structure → multi-timeframe context (4h regime / 1h direction) → signal qualification → risk approval
-- Risk engine with user-selected policy (≤10% planned equity loss per trade, `Decimal` arithmetic, enforced at the execution boundary)
-- Simulated execution bridge (propose → admit → fill lifecycle), append-only journals, deterministic replay, crash recovery, hash-pinned release closure
-- Live public-data **shadow evaluation** (M13): decisions journaled against real Binance candles without execution; 52 signal decisions journaled in live shadow runs
-- Authenticated, read-only local monitoring dashboard (fail-closed rendering)
+**[→ View repository](https://github.com/sahilmhatre4796/agency-growth-automation-platform)**
 
-**Verification**
-- 522 tests, fully offline (no exchange credentials required)
-- Strategy edge is **unvalidated** — no historical dataset tracked yet (M11 not implemented); shadow evaluation is not paper trading and not evidence of profitability
+<br clear="left"/>
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="60%"/></p>
 
-**Stack:** Python 3.13 · pandas · numpy · SQLite journals · Binance USD-M public API · unittest
+<img align="right" width="248" src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/card-02.svg" alt="02 — Adaptive Crypto Trading System"/>
 
----
+### 02 — [Adaptive Crypto Trading System](https://github.com/sahilmhatre4796/adaptive-crypto-trading-system) <code>PAPER / SHADOW ONLY</code>
 
-### 3. [Crypto Pulse](https://github.com/sahilmhatre4796/cryptopulse-backend/tree/main/cryptopulse-backend/cryptopulse-backend)
-*Cryptocurrency market intelligence platform — Express API, PostgreSQL, live market data.*
+Python framework for researching adaptive, multi-timeframe crypto strategies. **There is no code path anywhere in this codebase that places, modifies or cancels real orders.**
 
-A market tracking and intelligence application: live prices and global stats, portfolio tracking, watchlists, price alerts and a static dashboard frontend.
+Public Binance USD-M ingestion → pattern detection → ATR-normalized market structure → multi-timeframe context (4h regime / 1h direction) → signal qualification with replay protection → risk approval (≤10% planned equity loss, `Decimal`) → simulated execution, append-only journals, deterministic replay, crash recovery, read-only dashboard. Live public-data **shadow evaluation** — 52 journaled decisions; strategy edge is **unvalidated** (M11 open). 522 tests, fully offline.
 
-**Implemented**
-- Express + PostgreSQL backend: JWT access/refresh auth, bcrypt, helmet, CORS allowlist, rate limiting, centralized error handling
-- Market data pipeline with caching and provider fallback: CoinGecko (primary) → CoinPaprika, plus DexScreener DEX pair endpoints, Alternative.me Fear &amp; Greed and RSS news aggregation (CoinDesk / CoinTelegraph / Decrypt)
-- Feature APIs: portfolio with holdings and P&amp;L, watchlist, price-alert state machine, transaction history, encrypted exchange API-key storage (AES-256-GCM at rest), subscription tier gating (Stripe stubs)
-- 32 integration tests against a real PostgreSQL instance
-- Static frontend (vanilla JS) deployed on Netlify; backend targets Render/Railway
+`python 3.13 · pandas · sqlite · binance usd-m`
 
-**Honest scope**
-- Exchange API keys are stored encrypted with CRUD only — live balance fetching is planned, not implemented
-- Trading bots are config/status/P&amp;L tracking — the execution engine is planned, not implemented
-- Subscriptions are schema + tier gating + Stripe stubs — webhooks not wired yet
+**[→ View repository](https://github.com/sahilmhatre4796/adaptive-crypto-trading-system)**
 
-**Stack:** Node.js · Express · PostgreSQL (pg) · JWT · vanilla JS frontend · Netlify / Render
+<br clear="right"/>
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="60%"/></p>
 
----
+<img align="left" width="264" src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/card-03.svg" alt="03 — Crypto Pulse"/>
 
-### 4. [AI Flow](https://aiflow-ai.vercel.app/)
-*AI-powered SaaS platform for building no-code RAG chatbots — live site.*
+### 03 — [Crypto Pulse](https://github.com/sahilmhatre4796/cryptopulse-backend/tree/main/cryptopulse-backend/cryptopulse-backend) <code>MARKET INTELLIGENCE</code>
 
-A self-hosted, multi-tenant alternative to Intercom-style bot builders: teams create bots with custom personas, feed them knowledge bases, and embed them on any site via a single script tag.
+Cryptocurrency market intelligence platform — Express API, PostgreSQL, and a static dashboard with live prices, portfolio tracking and watchlists.
 
-**Backend ([ai-flow-backend](https://github.com/sahilmhatre4796/ai-flow-backend)) — implemented**
-- FastAPI + async PostgreSQL (asyncpg) + pgvector; Celery + Redis ingestion workers (separate sync engine by design)
-- Full RAG pipeline: document ingestion (PDF / DOCX / CSV / URL / sitemap) → sentence-boundary chunking → OpenAI/Ollama embeddings → cosine-distance retrieval → grounded replies with `retrieved_chunk_ids` audit trail
-- Multi-tenant isolation via `CurrentMembership` dependency (404, not 403, for non-members) with role-based access (owner/admin/agent/viewer)
-- Real-time WebSocket chat routed through Redis pub/sub (correct across multiple uvicorn workers); swappable chat providers (OpenAI / Anthropic / Ollama)
+JWT access/refresh auth, bcrypt, helmet, CORS allowlist, rate limiting. Market data with caching and provider fallback: CoinGecko (primary) → CoinPaprika, plus DexScreener DEX pair discovery, Alternative.me Fear &amp; Greed, RSS news aggregation. Portfolio P&amp;L, watchlists, price-alert state machine, AES-256-GCM encrypted exchange-key CRUD. 32 integration tests against real PostgreSQL · frontend on Netlify. Honest scope: exchange integration is key storage only; bots are config/P&amp;L tracking, execution planned.
 
-**Frontend ([ai-flow-frontend](https://github.com/sahilmhatre4796/ai-flow-frontend)) — implemented**
-- Vite + React dashboard wired to the real backend: Bot Builder, Knowledge Base, Conversations, Leads, Analytics, Marketplace, Team, Settings, Billing
-- Embeddable chat widget (`widget.js`) for customer sites; JWT auth with refresh-token session restore
-- Marketing landing page deployed at [aiflow-ai.vercel.app](https://aiflow-ai.vercel.app/)
+`node.js · express · postgresql · jwt · netlify`
 
-**Current gaps (tracked, not hidden):** agent live-conversation WebSocket is implemented on the backend but not yet wired into the dashboard UI (REST polling today); document-status updates poll every 3s.
+**[→ View repository](https://github.com/sahilmhatre4796/cryptopulse-backend/tree/main/cryptopulse-backend/cryptopulse-backend)**
 
-**Stack:** Python · FastAPI · PostgreSQL · pgvector · Redis · Celery · Docker · Nginx · React · Vite
+<br clear="left"/>
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="60%"/></p>
 
----
+<img align="right" width="248" src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/card-04.svg" alt="04 — AI Flow"/>
 
-### 5. [FlowForge](https://github.com/sahilmhatre4796/flowforge)
-*Event-driven workflow automation platform — webhooks in, actions out.*
+### 04 — [AI Flow](https://aiflow-ai.vercel.app/) <code>LIVE</code>
 
-A webhook automation platform inspired by Zapier/n8n/Make: incoming HTTP events are published to Kafka, consumed by worker pools, and executed as a DAG of typed nodes.
+AI-powered SaaS for building no-code RAG chatbots — a self-hosted multi-tenant alternative to Intercom-style bot builders.
 
-**Implemented**
-- Webhook ingest at `/hooks/{slug}` with HMAC-SHA256 signature verification; JWT auth (30-min access + 14-day refresh); API keys encrypted at rest (Fernet); Redis fixed-window rate limiting; RBAC via `is_admin`
-- Kafka event bus: `webhook-events`, `workflow-executions` (retry), `notifications`, `audit-logs`, `workflow-executions-dlq` — consumer groups give exactly-one-worker-per-event at any replica count
-- DAG executor: trigger (webhook / schedule / manual) → logic (filter / if-else / delay / transform) → actions (HTTP, Slack, Discord, Telegram, SMTP email, allow-listed SQL INSERT), with `{{field}}` templating
-- Next.js 15 frontend: visual builder, execution history, integrations, monitoring, admin panel
-- Full Docker Compose stack: PostgreSQL 16 + Alembic, Redis, Kafka + Zookeeper, nginx, Prometheus + Grafana
+**Backend** ([ai-flow-backend](https://github.com/sahilmhatre4796/ai-flow-backend)): FastAPI + async PostgreSQL + pgvector · Celery + Redis ingestion · WebSocket chat over Redis pub/sub · 404-not-403 tenant isolation · RBAC (owner/admin/agent/viewer) · swappable providers (OpenAI/Anthropic/Ollama). Full RAG pipeline: PDF/DOCX/CSV/URL → sentence-boundary chunking → embeddings → cosine-distance retrieval → grounded replies with audit trail. **Frontend** ([ai-flow-frontend](https://github.com/sahilmhatre4796/ai-flow-frontend)): Vite + React dashboard — Bot Builder, Knowledge Base, Conversations, Leads, Analytics, Team, Billing — plus embeddable widget. Honest gaps: agent live-conversation WS not yet in dashboard (REST polling); doc-status polls every 3s.
 
-**Stack:** Python · FastAPI · Kafka · PostgreSQL · Redis · Next.js 15 · TypeScript · Docker · Prometheus
+`fastapi · pgvector · redis · celery · react · vite`
 
----
+**[→ Visit live site](https://aiflow-ai.vercel.app/)** · **[→ Backend](https://github.com/sahilmhatre4796/ai-flow-backend)** · **[→ Frontend](https://github.com/sahilmhatre4796/ai-flow-frontend)**
 
-## Tech Stack
+<br clear="right"/>
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="60%"/></p>
 
-**Languages**
-<img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-<img src="https://img.shields.io/badge/typescript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/sql-4479A1?style=flat-square" alt="SQL">
+<img align="left" width="248" src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/card-05.svg" alt="05 — FlowForge"/>
 
-**Backend**
-<img src="https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-<img src="https://img.shields.io/badge/postgresql-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/rest%20apis-009688?style=flat-square" alt="REST APIs">
-<img src="https://img.shields.io/badge/websockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets">
-<img src="https://img.shields.io/badge/jwt-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT Auth">
-<img src="https://img.shields.io/badge/celery-A9CC42?style=flat-square&logo=celery&logoColor=black" alt="Celery">
+### 05 — [FlowForge](https://github.com/sahilmhatre4796/flowforge) <code>EVENT-DRIVEN · KAFKA</code>
 
-**Frontend**
-<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-<img src="https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
-<img src="https://img.shields.io/badge/vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-<img src="https://img.shields.io/badge/tailwind%20css-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+Webhook automation platform (Zapier/n8n/Make-style) — incoming HTTP events become DAG executions across a Kafka backbone.
 
-**Databases &amp; Infrastructure**
-<img src="https://img.shields.io/badge/mongodb-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
-<img src="https://img.shields.io/badge/redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
-<img src="https://img.shields.io/badge/supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black" alt="Supabase">
-<img src="https://img.shields.io/badge/pgvector-336791?style=flat-square" alt="pgvector">
-<img src="https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx">
+`/hooks/{slug}` ingest with HMAC-SHA256 signatures · JWT auth (30-min access / 14-day refresh) · Fernet-encrypted API keys · Redis rate limiting · RBAC. Kafka bus: `webhook-events` · `workflow-executions` (retry) · `notifications` · `audit-logs` · `workflow-executions-dlq`, consumer groups scale horizontally. DAG executor: webhook/schedule/manual triggers → filter/if-else/delay/transform → HTTP, Slack, Discord, Telegram, SMTP, allow-listed SQL INSERT. Next.js 15 frontend · Docker Compose: PG 16 + Alembic, Kafka, nginx, Prometheus + Grafana. Honest scope: portfolio-scale build with production-style architecture — not load-proven.
 
-**AI &amp; Automation**
-<img src="https://img.shields.io/badge/llm%20integrations-412991?style=flat-square&logo=openai&logoColor=white" alt="LLM integrations">
-<img src="https://img.shields.io/badge/rag-7C3AED?style=flat-square" alt="RAG">
-<img src="https://img.shields.io/badge/groq-F55036?style=flat-square" alt="Groq">
-<img src="https://img.shields.io/badge/kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka">
+`fastapi · kafka · postgresql · redis · next.js 15 · docker`
 
-**Crypto &amp; Real-Time Systems**
-<img src="https://img.shields.io/badge/exchange%20apis-F0B90B?style=flat-square&logo=binance&logoColor=black" alt="Exchange APIs">
-<img src="https://img.shields.io/badge/market%20data-0ECB81?style=flat-square" alt="Market data">
-<img src="https://img.shields.io/badge/ccxt-1B5CC4?style=flat-square" alt="CCXT">
-<img src="https://img.shields.io/badge/real--time%20processing-010101?style=flat-square" alt="Real-time processing">
+**[→ View repository](https://github.com/sahilmhatre4796/flowforge)**
 
-**Tools &amp; DevOps**
-<img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-<img src="https://img.shields.io/badge/github%20actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-<img src="https://img.shields.io/badge/prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus">
-<img src="https://img.shields.io/badge/grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana">
-<img src="https://img.shields.io/badge/vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+<br clear="left"/>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="90%"/></p>
 
-## How I Work
-
-- **Architecture first** — data model and API contracts before code
-- **Backend-first, full-stack delivery** — from schema and migrations to deployment
-- **Production instincts** — auth, RLS, rate limiting, encryption and audit trails designed in, not bolted on
-- **Honest systems** — no fabricated data, no exaggerated claims; unvalidated stays unvalidated
-
----
-
-## GitHub Stats
+## `//` the stack
 
 <p align="center">
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=sahilmhatre4796&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=sahilmhatre4796&layout=compact&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="Top languages" />
+  <img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/skill-backend.svg" width="49%" alt="Backend Engineering — FastAPI, PostgreSQL, REST APIs, WebSockets, Redis, Celery, pgvector, RLS, Docker"/>
+  <img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/skill-frontend.svg" width="49%" alt="Frontend Development — React, Next.js, TypeScript, Vite, Tailwind CSS"/>
+  <br/>
+  <img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/skill-ai.svg" width="49%" alt="AI and Automation — LLM integrations, RAG, pgvector, Groq, OpenAI, Anthropic"/>
+  <img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/skill-crypto.svg" width="49%" alt="Crypto and Real-Time Systems — Binance USD-M, CCXT, market data, WebSockets, real-time processing"/>
+</p>
+
+<p align="center"><code>languages — python · javascript · typescript · sql</code><br/><code>also — mongodb · supabase · git · github actions · linux · prometheus · grafana</code></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="90%"/></p>
+
+## `//` github analytics
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sahilmhatre4796&theme=onedark&no-frame=true&no-bg=true&margin-w=6&row=1&column=6" alt="GitHub trophies"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=sahilmhatre4796&theme=dark&hide_border=false" alt="GitHub streak" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=sahilmhatre4796&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=sahilmhatre4796&layout=compact&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="Top languages"/>
 </p>
 
----
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=sahilmhatre4796&theme=dark&hide_border=false" alt="GitHub streak"/>
+</p>
 
-## Let's Connect
+<p align="center"><img src="https://raw.githubusercontent.com/sahilmhatre4796/sahilmhatre4796/main/assets/divider.svg" alt="" width="90%"/></p>
 
-- **Email:** sahilmhatre4796@gmail.com
-- **LinkedIn:** [linkedin.com/in/sahilmhatre4796](https://www.linkedin.com/in/sahilmhatre4796)
-- **GitHub:** [github.com/sahilmhatre4796](https://github.com/sahilmhatre4796)
+## `//` let's connect
 
-<p align="center"><i>Open to backend, full-stack and AI engineering opportunities.</i></p>
+<p align="center">
+  <a href="mailto:sahilmhatre4796@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/sahilmhatre4796"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/sahilmhatre4796"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
+
+<p align="center"><i>Open to backend, full-stack and AI engineering opportunities — let's build something solid.</i></p>

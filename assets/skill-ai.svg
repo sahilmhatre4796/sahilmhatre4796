@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492 300" width="492" height="300" role="img" aria-label="AI and Automation skills">
+  <defs><linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d946ef"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/></linearGradient></defs>
+  <rect width="492" height="300" rx="18" fill="#10151f" stroke="#212a3a"/>
+  <rect width="492" height="4" fill="url(#acc)"/>
+  <g stroke="#d946ef" stroke-width="1.7" fill="none">
+    <circle cx="52" cy="52" r="10" fill="#1c1330"/>
+    <circle cx="26" cy="30" r="4.5"/><circle cx="78" cy="30" r="4.5"/><circle cx="26" cy="74" r="4.5"/><circle cx="78" cy="74" r="4.5"/>
+    <line x1="52" y1="52" x2="28" y2="32"/><line x1="52" y1="52" x2="76" y2="32"/><line x1="52" y1="52" x2="28" y2="72"/><line x1="52" y1="52" x2="76" y2="72"/>
+    <circle cx="52" cy="52" r="1.8" fill="#d946ef" stroke="none"/>
+  </g>
+  <text x="26" y="130" font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#e879f9" letter-spacing="2.5">03 — INTELLIGENCE</text>
+  <text x="24" y="165" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#f1f5f9">AI &amp; Automation</text>
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5" fill="#a9b4c9">
+    <text x="26" y="196"><tspan fill="#f5c15d">▸</tspan> LLM integrations · OpenAI · Anthropic</text>
+    <text x="26" y="218"><tspan fill="#f5c15d">▸</tspan> RAG pipelines · pgvector retrieval</text>
+    <text x="26" y="240"><tspan fill="#f5c15d">▸</tspan> Groq · Ollama · audit-trailed answers</text>
+    <text x="26" y="262"><tspan fill="#f5c15d">▸</tspan> human-in-the-loop · Kafka workflows</text>
+  </g>
+</svg>
